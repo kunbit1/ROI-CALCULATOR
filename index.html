@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amazon ROI Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>Amazon ROI Calculator</h1>
+      <p>Quickly calculate your profit and return on investment for your products</p>
+    </header>
+
+    <section class="input-section">
+      <div class="input-group">
+        <label>Cost Price ($)</label>
+        <input type="number" id="cost" placeholder="e.g. 10">
+      </div>
+
+      <div class="input-group">
+        <label>Selling Price ($)</label>
+        <input type="number" id="price" placeholder="e.g. 25">
+      </div>
+
+      <div class="input-group">
+        <label>Amazon Fees ($)</label>
+        <input type="number" id="fees" placeholder="e.g. 5">
+      </div>
+
+      <div class="input-group">
+        <label>Shipping Cost ($)</label>
+        <input type="number" id="shipping" placeholder="e.g. 3">
+      </div>
+    </section>
+
+    <section class="results">
+      <div class="card">
+        <h3>Profit</h3>
+        <p id="profit">$0</p>
+      </div>
+
+      <div class="card">
+        <h3>ROI</h3>
+        <p id="roi">0%</p>
+      </div>
+
+      <div class="card">
+        <h3>Margin</h3>
+        <p id="margin">0%</p>
+      </div>
+
+      <div class="card">
+        <h3>Status</h3>
+        <p id="status">Enter values</p>
+      </div>
+    </section>
+
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
